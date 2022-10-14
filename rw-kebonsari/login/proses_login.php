@@ -3,11 +3,11 @@ session_start();
 include('../koneksi.php');
 
 // ambil data
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username_user = htmlspecialchars($_POST['username_user']);
+$password_user = md5(htmlspecialchars($_POST['password_user']));
 
 // periksa username dan password
-$query = "SELECT * FROM user WHERE username = '$username' and password = '$password'";
+$query = "SELECT * FROM user WHERE username_user = '$username_user' and password_user = '$password_user'";
 $hasil = mysqli_query($db, $query);
 $data_user = mysqli_fetch_assoc($hasil);
 
