@@ -15,10 +15,12 @@
     
   <?php include ('taskbar/header.php') ?>
 
-    <div class="card mb-4">
+    <div class="container mt-5">
+      <div class="mb-3">
         <h1>Tentang Desa</h1>
           <p> </p>
-        <div>
+      </div>
+    <div>
 
     <?php include ('taskbar/footer.php') ?>
 

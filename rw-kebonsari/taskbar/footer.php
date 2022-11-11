@@ -1,10 +1,12 @@
-    <!-- Footer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  
+  <!-- Footer -->
     <footer class="text-center text-lg-start bg-white text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
+      <span</span>
     </div>
     <!-- Left -->
 
@@ -45,8 +47,8 @@
             <i class="kantor"></i>KANTOR RW 06 KEBONSARI
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            Kebonsari memiliki semangat juang dalam hal kesehatan dengan membangun fasilitas GOR
+            yang bisa digunakan dalam beberapa kegiatan masyrakat seperti Pingpong, Pencaksilat, Marawis dan kegiatan lainnya
           </p>
         </div>
         <!-- Grid column -->
@@ -76,19 +78,19 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
+            Prestasi
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="#!" class="text-reset">Lomba Kebersihan</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="#!" class="text-reset">Lomba Tenis Meja</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Orders</a>
+            <a href="#!" class="text-reset">Lomba administrasi</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">Lomba </a>
           </p>
         </div>
         <!-- Grid column -->

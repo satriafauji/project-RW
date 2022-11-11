@@ -1,7 +1,7 @@
-<header class="header bg-header" style="background: url('bg.jpg');">
+<header class="header bg-header" style="background: url('bg.jpeg');">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="beranda.php">
             <img src="kotacimahi.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             RW 06 KEBONSARI
           </a>

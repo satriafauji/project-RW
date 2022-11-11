@@ -15,7 +15,7 @@
     
   <?php include ('taskbar/header.php') ?>
 
-    <div class="text">
+    <div class="mt-5">
     <h1>Tata Letak Desa Rw 06 Kebonsari</h1>
   </div>
 </div>
