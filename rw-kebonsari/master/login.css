@@ -1,0 +1,13 @@
+body {
+    margin-bottom: 0px;
+    padding: 0px;
+    background: url(../bg-login.JPG);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.mt-custom {
+    margin-top: 5rem;
+}

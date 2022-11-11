@@ -15,17 +15,25 @@
     
   <?php include ('taskbar/header.php') ?>
 
-    <div class="flex-row row column-content-wrapper" style="height: auto !important;">
-    <div id="content" class="col-12 col-md-9 article-container">
-      <article id="page-28" class="post-28 page type-page status-publish czr-hentry">
-        <header class="entry-header ">
-          <div class="entry-header-inner">
-          <h1 class="entry-title">Sambutan ketua RW 06</h1>
-  
-          <span style="color: #2d87cc;">Bapak. Ade Firman<br>
-             </span></span></strong><strong><span style="font-size: 14pt;"><span style="color: #f27242;">Ketua RW 06</span></span></strong></p>
-      <div>
-    </div>
+      <div class="container mt-5">
+          <div class="mb-3 text-center">
+            <h1>Sambutan Ketua RW 06</h1>
+          </div>
+          <div class="text-center">
+            <img src="image/sambutanrw.jpg" alt="" width="300" height="420">
+          </div>
+          <div class="text-center">
+            <p class="text-primary"><strong>Bapak. Ade Firman</p></strong>
+            <p class="text-warning"><strong>Ketua RW 06</p></strong>
+          <div>
+          <div class="text-start">
+            <p>asnxjkasbxjkabsjkxbaskjx
+              axnjasbcxjkasbcjkasbc
+              acnjkasbcjkasbckkjcbkasjbcjasbcjkasbkjcbasjk
+              ascbkjasbcjkasbckj
+            </p>
+          </div>
+      </div>
 
     <?php include ('taskbar/footer.php') ?>
 
