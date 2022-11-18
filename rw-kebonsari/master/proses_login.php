@@ -27,6 +27,7 @@ $query = mysqli_query($db, "SELECT * FROM user WHERE username_user='$username' A
     if (mysqli_num_rows($query) > 0) {
         $data = mysqli_fetch_array($query);
         $_SESSION['username'] = $data['username_user'];
+        $_SESSION['id_user'] = $data['id_user'];
         header("Location:dasbor/dashboard.php");
     } else {
       header("Location: login.php");

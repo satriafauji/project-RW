@@ -26,8 +26,7 @@
   </div>
 </div>
 
-<iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0151829852025!2d107.53638491431684!3d-6.88878426932309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e4528c574533%3A0xf689d58a5765b17f!2sJl.%20Kb.%20Sari%2C%20Baros%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040521!5e0!3m2!1sen!2sid!4v1662778789673!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+<iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.2516367389157!2d107.53774132916556!3d-6.8898181682684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e5ce96f5b65f%3A0xe4091461b233d5d2!2sJl.%20Kb.%20Sari%20Blok%20E%20No.144%2C%20Baros%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040521!5e0!3m2!1sen!2sid!4v1668223161718!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <?php include ('taskbar/footer.php') ?>
 
     <!-- Optional JavaScript; choose one of the two! -->

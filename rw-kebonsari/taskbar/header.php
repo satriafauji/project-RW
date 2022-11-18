@@ -34,8 +34,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="galerikegiatan.php">Galeri Kegiatan</a>
               </li>
+              <li class="nav-item">
+                <a href="gor.php" class="nav-link">GOR</a>
+              </a>
+              </li>
             </ul>
-            <a href="login/login.php" class="btn btn-outline-success">Login</a>
+            <a href="master/login.php" class="btn btn-outline-success">Login</a>
           </div>
         </div>
 
@@ -47,8 +51,8 @@
             <div class="logo">
               <img src="kotacimahi.png" alt="logo" class="img-fluid" width="300" height="300">
             </div>
-            <h2>RW 06 Kebon Sari</h2>
-            <h3>Kec. Cimahi Tengah Kota. Cimahi Prov. Jawa Barat </h3>
+            <h2 class="text-light" >RW 06 Kebon Sari</h2>
+            <h3 class="text-light">Kec. Cimahi Tengah Kota. Cimahi Prov. Jawa Barat </h3>
           </div>
         </div>
       </div>

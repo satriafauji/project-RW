@@ -42,7 +42,7 @@
                                             <img src="image/home-page.png" alt="Home" class="img-fluid" width="50" height="50">
                                         </div>
                                         <div class="title-desc-about">
-                                            <a href="#" class="text-dark">
+                                            <a href="tentangdesa.php" class="text-dark">
                                                 <h4>Profil RW</h4>
                                             </a>
                                             <p>
@@ -61,8 +61,8 @@
                                             <img src="image/home-page.png" alt="Home" class="img-fluid" width="50" height="50">
                                         </div>
                                         <div class="title-desc-about">
-                                        <a href="#" class="text-dark">
-                                            <h4>Pembangunan</h4>
+                                        <a href="gor.php" class="text-dark">
+                                            <h4>Gedung Olahraga</h4>
                                         </a>
                                             <p>
                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus nulla 
@@ -80,8 +80,8 @@
                                             <img src="image/home-page.png" alt="Home" class="img-fluid" width="50" height="50">
                                         </div>
                                         <div class="title-desc-about">
-                                        <a href="#" class="text-dark">
-                                            <h4>Layanan</h4>
+                                        <a href="tataletak.php" class="text-dark">
+                                            <h4>Tata Letak</h4>
                                         </a>
                                             <p>
                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus nulla 
@@ -192,7 +192,7 @@
                         kegiatanini bertujuan untuk melihat perkembangan dan kesahatan anak yang
                         berada di di lingkungan.
                         </p>
-                        <a href="#" class="">Baca Lebih Lanjut</a>
+                        <a href="gk5.php" class="">Baca Lebih Lanjut</a>
                 </div>
             </div>
 
