@@ -1,0 +1,100 @@
+a {
+    text-decoration: none;
+}
+
+table.dataTable.table-striped>tbody>tr.odd>* {
+    vertical-align:middle;
+}
+
+.sidebar-brand {
+    display: block;
+    padding: 0.575rem;
+}
+
+.sidebar-link, a.sidebar-link {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    padding: 0.575rem;
+    position: relative;
+    text-decoration: none;
+    transition: color 75ms ease-in-out;
+}
+
+.nav-sidebar-sub a {
+    font-size: 14px;
+}
+
+.nav-sidebar a:hover {
+    color: #A9A9A9;
+}
+
+.dropdown-custom-sidebar {
+    position: fixed;
+    bottom: 0;
+}
+
+.table .dropdown .dropdown-menu .dropdown-item {
+    font-size: 0.8rem;
+}
+
+.table th, td {
+    font-size: 12px;
+}
+
+.form-select {
+    font-size: 0.8rem;
+}
+
+.form-control {
+    font-size: 0.8rem;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    font-size: 0.8rem;
+}
+
+div.dataTables_wrapper .page-link {
+    font-size: 0.8rem;
+}
+
+.dataTables_length label {
+    font-size: 0.8rem;
+}
+
+.dataTables_filter label {
+    font-size: 0.8rem;
+}
+
+.bg-identitas {
+    background-repeat: no-repeat !important;
+    background-position: inherit;
+    background-size: cover !important;
+    background-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-link[data-bs-toggle].collapsed::after {
+    font-family: "FontAwesome";
+    content: "\f107";
+    float: right;
+    font-size: 12px;
+}
+
+.sidebar-link[data-bs-toggle]:not(.collapsed)::after {
+    font-family: "FontAwesome";
+    content: "\f106";
+    float: right;
+    font-size: 12px;
+}
+
+.nav-sidebar {
+    list-style: none;
+    padding-left: 0;
+}
