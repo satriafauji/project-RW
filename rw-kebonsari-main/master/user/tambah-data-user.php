@@ -33,7 +33,7 @@ if (!isset($_SESSION['username'])) {
                     <div class="card-header">
                         <h5 class="card-title mb-0">Tambah Data User</h5>
                     </div>
-                    <form action="proses-tambah-warga.php" method="post">
+                    <form action="proses-tambah-user.php" method="post">
                         <div class="card-body">
                             <div class="title-form-group mb-3">
                                 <h6>A. Data Pribadi</h6>
@@ -43,28 +43,28 @@ if (!isset($_SESSION['username'])) {
                                     <tr>
                                         <th width="20%" class="align-middle">Nama User</th>
                                         <th width="1%" class="align-middle">:</th>
-                                        <td> <input type="text" name="nik_warga" class="form-control" autocomplete="off" required> </td>
+                                        <td> <input type="text" name="nama_user" class="form-control" autocomplete="off" required> </td>
                                     </tr>
                                     <tr>
                                         <th class="align-middle">Username</th>
                                         <th class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="nama_warga" autocomplete="off" required></td>
+                                        <td><input type="text" class="form-control" name="username_user" autocomplete="off" required></td>
                                     </tr>
                                     <tr>
                                         <th class="align-middle">Password</th>
                                         <th class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="tempat_lahir_warga" autocomplete="off" required></td>
+                                        <td><input type="password" class="form-control" name="password_user" autocomplete="off" required></td>
                                     </tr>
                                     <tr>
-                                        <th class="align-middle">Keterangan</th>
+                                        <th class="align-middle">Email</th>
                                         <th class="align-middle">:</th>
-                                        <td><input type="date" class="form-control" name="tanggal_lahir_warga" required></td>
+                                        <td><input type="email" class="form-control" name="email_user" autocomplete="off" required></td>
                                     </tr>
                                     <tr>
-                                        <th class="align-middle">Status</th>
+                                        <th class="align-middle">Role</th>
                                         <th class="align-middle">:</th>
                                         <td>
-                                            <select name="jenis_kelamin_warga" class="form-select" required>
+                                            <select name="role" class="form-select" required>
                                                 <option value="">-- PILIH --</option>
                                                 <option value="admin">Admin</option>
                                                 <option value="rw">RW</option>
@@ -74,57 +74,7 @@ if (!isset($_SESSION['username'])) {
                                     </tr>
                                 </tbody>
                             </table>
-                            <div class="title-form-group mb-3">
-                                <h6>B. Data Alamat</h6>
-                            </div>
-                            <table class="table table-striped table-middle">
-                                <tbody>
-                                    <tr>
-                                        <th width="20%" class="align-middle">Desa/Kelurahan</th>
-                                        <th width="1%" class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="desa_kelurahan_warga" value="Baros" readonly></td>
-                                    </tr>
-                                    <tr>
-                                        <th class="align-middle">Kecamatan</th>
-                                        <th class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="kecamatan_warga" value="Cimahi Tengah" readonly></td>
-                                    </tr>
-                                    <tr>
-                                        <th class="align-middle">Kabupaten/Kota</th>
-                                        <th class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="kabupaten_kota_warga" value="Cimahi" readonly></td>
-                                    </tr>
-                                    <tr>
-                                        <th class="align-middle">Provinsi</th>
-                                        <th class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="provinsi_warga" value="Jawa Barat" readonly></td>
-                                    </tr>
-                                    <tr>
-                                        <th class="align-middle">Negara</th>
-                                        <th class="align-middle">:</th>
-                                        <td><input type="text" class="form-control" name="negara_warga" value="Indonesia" readonly></td>
-                                    </tr>
-                                    <tr>
-                                        <th>RT</th>
-                                        <td>:</td>
-                                        <td>
-                                            <select name="rt_warga" class="form-select" required>
-                                                <option value="">-- PILIH RT --</option>
-                                                <option value="001">001</option>
-                                                <option value="002">002</option>
-                                                <option value="003">003</option>
-                                                <option value="005">005</option>
-                                                <option value="005">005</option>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>RW</th>
-                                        <td>:</td>
-                                        <td><input type="text" class="form-control" name="rw_warga" value="006" readonly></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        </div>
                         <div class="card-header">
                             <button type="reset" name="reset" class="btn btn-sm btn-danger">
                                 Batal

@@ -186,9 +186,9 @@ if (!isset($_SESSION['username'])) {
                                             <select name="status_perkawinan_warga" class="form-select" required>
                                                 <option value="">-- PILIH STATUS PERKAWINAN --</option>
                                                 <option value="Kawin">Kawin</option>
-                                                <option value="Belum Kawin">Belum Kawin</option>
-                                                <option value="Cerai Hidup">Cerai Hidup</option>
-                                                <option value="Cerai Mati">Cerai Mati</option>
+                                                <option value="Belum-Kawin">Belum Kawin</option>
+                                                <option value="Cerai-Hidup">Cerai Hidup</option>
+                                                <option value="Cerai-Mati">Cerai Mati</option>
                                             </select>
                                         </td>
                                     </tr>

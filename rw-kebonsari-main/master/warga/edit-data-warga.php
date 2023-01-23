@@ -194,9 +194,9 @@ if (isset($_GET['id_warga'])) {
                                             <select name="status_perkawinan_warga" class="form-select" required>
                                                 <option value="">-- PILIH STATUS PERKAWINAN --</option>
                                                 <option value="Kawin" <?= ($data['status_perkawinan_warga'] == "Kawin") ? "selected" : ""; ?>>Kawin</option>
-                                                <option value="Belum Kawin" <?= ($data['status_perkawinan_warga'] == "Belum Kawin") ? "selected" : ""; ?>>Belum Kawin</option>
-                                                <option value="Cerai Hidup" <?= ($data['status_perkawinan_warga'] == "Cerai Hidup") ? "selected" : ""; ?>>Cerai Hidup</option>
-                                                <option value="Cerai Mati" <?= ($data['status_perkawinan_warga'] == "Cerai Mati") ? "selected" : ""; ?>>Cerai Mati</option>
+                                                <option value="Belum-Kawin" <?= ($data['status_perkawinan_warga'] == "Belum-Kawin") ? "selected" : ""; ?>>Belum Kawin</option>
+                                                <option value="Cerai-Hidup" <?= ($data['status_perkawinan_warga'] == "Cerai-Hidup") ? "selected" : ""; ?>>Cerai Hidup</option>
+                                                <option value="Cerai-Mati" <?= ($data['status_perkawinan_warga'] == "Cerai-Mati") ? "selected" : ""; ?>>Cerai Mati</option>
                                             </select>
                                         </td>
                                     </tr>

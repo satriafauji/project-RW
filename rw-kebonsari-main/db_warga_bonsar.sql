@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2022 at 02:39 AM
+-- Generation Time: Jan 23, 2023 at 12:00 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -126,8 +126,8 @@ CREATE TABLE `user` (
   `password_user` varchar(255) NOT NULL,
   `email_user` varchar(255) NOT NULL,
   `role` varchar(255) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `updated_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -135,7 +135,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama_user`, `username_user`, `password_user`, `email_user`, `role`, `created_at`, `updated_at`) VALUES
-(1, 'Administrator', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'adminkebonsari06@gmail.com', 'admin', '2022-11-21 03:23:38', '2022-11-21 03:23:38');
+(1, 'Administrator', 'admin', 'c3284d0f94606de1fd2af172aba15bf3', 'adminrwkebonsari06@gmail.com', 'admin', '2022-11-21 03:23:38', '2023-01-23 17:29:31'),
+(3, 'Ketua RW 06', 'rwkebonsari06', '1f32aa4c9a1d2ea010adcf2348166a04', 'ketuarwkebonsari@gmail.com', 'rw', '2023-01-23 10:32:48', '2023-01-23 17:34:10'),
+(4, 'Ketua RT 01', 'ketuart01', '827ccb0eea8a706c4c34a16891f84e7b', 'ketuart01@gmail.com', 'rt', '2023-01-23 10:33:26', '2023-01-23 17:33:26');
 
 -- --------------------------------------------------------
 
@@ -162,7 +164,7 @@ CREATE TABLE `warga` (
   `agama_warga` varchar(255) NOT NULL,
   `pendidikan_terakhir_warga` varchar(255) NOT NULL,
   `pekerjaan_warga` varchar(255) NOT NULL,
-  `status_perkawinan_warga` enum('Kawin','Belum Kawin') NOT NULL,
+  `status_perkawinan_warga` varchar(255) NOT NULL,
   `status_warga` enum('Tetap','Kontrak') NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp()
@@ -174,7 +176,8 @@ CREATE TABLE `warga` (
 
 INSERT INTO `warga` (`id_warga`, `nik_warga`, `nama_warga`, `tempat_lahir_warga`, `tanggal_lahir_warga`, `jenis_kelamin_warga`, `alamat_ktp_warga`, `alamat_warga`, `desa_kelurahan_warga`, `kecamatan_warga`, `kabupaten_kota_warga`, `provinsi_warga`, `negara_warga`, `rt_warga`, `rw_warga`, `agama_warga`, `pendidikan_terakhir_warga`, `pekerjaan_warga`, `status_perkawinan_warga`, `status_warga`, `created_at`, `updated_at`) VALUES
 (17, '063634634645', 'Ahmad ', 'Surabaya', '1972-09-02', 'L', 'Kebon Sari', 'Kebon Sari', 'Baros', 'Cimahi Tengah', 'Cimahi', 'Jawa Barat', 'Indonesia', '001', '006', 'Islam', 'S1', 'Pegawai Swasta', 'Kawin', 'Tetap', '2022-11-28 14:20:44', '2022-11-28 14:20:44'),
-(18, '094634654754', 'Maman ', 'Bandung', '1978-09-02', 'L', 'Cilengkrang', 'Kebonsari', 'Baros', 'Cimahi Tengah', 'Cimahi', 'Jawa Barat', 'Indonesia', '002', '006', 'Islam', 'D3', 'Pegawai Swasta', 'Kawin', 'Tetap', '2022-11-29 15:45:46', '2022-11-29 15:45:46');
+(18, '094634654754', 'Maman ', 'Bandung', '1978-09-02', 'L', 'Cilengkrang', 'Kebonsari', 'Baros', 'Cimahi Tengah', 'Cimahi', 'Jawa Barat', 'Indonesia', '002', '006', 'Islam', 'D3', 'Pegawai Swasta', 'Kawin', 'Tetap', '2022-11-29 15:45:46', '2022-11-29 15:45:46'),
+(19, '094634654755', 'Testing Warga', 'Bandung', '1998-09-20', 'L', 'Jalan Inhoftank No. 29', 'Jalan Kebon Sari No. 30', 'Baros', 'Cimahi Tengah', 'Cimahi', 'Jawa Barat', 'Indonesia', '001', '006', 'Islam', 'D3', 'Pegawai Swasta', 'Cerai-Hidup', 'Kontrak', '2023-01-23 10:45:20', '2023-01-23 10:39:55');
 
 --
 -- Indexes for dumped tables
@@ -252,13 +255,13 @@ ALTER TABLE `schedule_list`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `warga`
 --
 ALTER TABLE `warga`
-  MODIFY `id_warga` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id_warga` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- Constraints for dumped tables
